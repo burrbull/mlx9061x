@@ -1,0 +1,12 @@
+[package]
+name = "mlx9061x"
+version = "0.1.0"
+categories = ["embedded-driver", "hardware-support", "no-std"]
+authors = ["Andrey Zgarbul <zgarbul.andrey@gmail.com>"]
+
+[dependencies]
+embedded-hal = "0.2.1"
+
+[dependencies.cast]
+default-features = false
+version = "0.2.2"
